@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel = "stylesheet" href = "fa2.css">
+    <script src = "fa2.js"></script>
+</head>
+
+<body>
+    <h1>calcU</h1>
+    <h4>This page is a simple calculator. Enter 2 valid numbers and choose an operation. The result will be displayed below. </h4>
+    <input type = "text" id = "num1" placeholder = "num1">
+    <input type = "text" id = "num2" placeholder = "num2">
+
+    <br>
+    <br>
+
+    <div>
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate('/')">/</button>
+        <button onclick="calculate('%')">%</button>
+    </div>
+
+    <p id = "result"></p>
+</body>
+
